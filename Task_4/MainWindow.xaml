@@ -1,0 +1,19 @@
+﻿<Window x:Name="Wind" x:Class="Task_4.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Task_4"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="240" Width="482">
+    <Grid>
+        <ComboBox x:Name="ColorBoxBG" HorizontalAlignment="Left" Margin="21,45,0,0" VerticalAlignment="Top" Width="120"/>
+        <TextBlock HorizontalAlignment="Left" Margin="21,18,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="89"><Run Language="ru-ru" Text="Кол"/><Run Language="uk-ua" Text="ір фона"/></TextBlock>
+        <TextBlock HorizontalAlignment="Left" Margin="21,80,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"><Run Language="uk-ua" Text="Колір текста"/></TextBlock>
+        <ComboBox x:Name="ColorBoxFC" HorizontalAlignment="Left" Margin="21,112,0,0" VerticalAlignment="Top" Width="120"/>
+        <TextBlock HorizontalAlignment="Left" Margin="233,0,0,0" TextWrapping="Wrap" VerticalAlignment="Center" Height="188" Width="216"><Run Text="TextBlock "/><Run Text="TextBlock TextBlock TextBlock TextBlock TextBlock TextBlock TextBlock TextBlock TextBlock TextBlock TextBlock TextBlock TextBlock TextBlock TextBlock TextBlock TextBlock TextBlock TextBlock TextBlock TextBlock TextBlock TextBlock TextBlock TextBlock TextBlock TextBlock TextBlock TextBlock TextBlock TextBlock TextBlock TextBlock TextBlock TextBlock TextBlock TextBlock "/></TextBlock>
+        <Button x:Name="ApplyButt" Content="Застосувати" HorizontalAlignment="Left" Margin="23,160,0,0" VerticalAlignment="Top" Click="ApplyButt_Click"/>
+        <Button x:Name="SaveButt" Content="Зберегти" HorizontalAlignment="Left" Margin="112,160,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.609,0.59" Click="SaveButt_Click"/>
+
+    </Grid>
+</Window>
